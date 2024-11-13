@@ -14,7 +14,7 @@ spec:
       labels:
         app: go-web-app
     spec: 
-      container:
+      containers:
       - name: go-web-app
         image: marolinejohnson/go-web-app:v1
         ports:
